@@ -1,11 +1,11 @@
 <baw9latech x mta>
-<!-- Module 1 station structure -->
+<!-- Module R station structure -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="#B-tech x(MTA)" content="width=device-width, initial-scale=1.0">
-  <title>🌐 Express Module (1)- Transit Network</title>
+  <title>🌐 Express Module (R)- Transit Network</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -140,7 +140,7 @@
     <div class="sphere" id="sphere"></div>
   </div>
 
-  <div class="branch-list" aria-label="(1) module station branch list" id="branchList"></div>
+  <div class="branch-list" aria-label="(R) module station branch list" id="branchList"></div>
 
   <div class="info-panel" id="infoPanel">
     <h3 id="stationName"></h3>
@@ -156,26 +156,28 @@
 
   <script>
     const stationNames = [
-      'Van cortlandt Park ',
-      '231 St',
-      '215 St',
-      'Dyckman st',
-      '181 st',
-      '145 st',
-      '125 st',
-      'Cathedral Pkway (110st)',
-      '96 st',
-      '79 st',
-      '66 st Lincoln Center',
-      '50 st',
-      '34st Penn Station',
+      'Forest Hills ',
+      'Woodhaven Blvd',
+      'Jackson Height',
+      'Northern Blvd',
+      'Steinway st',
+      'Queens Blvd',
+      '5 Av/59st',
+      '49 st',
+      '34 st Herald Sq',
       '23 st',
-      '14 st',
-      'Houston st',
-      'Franklin st',
-      'Wtc Cortlandt',
-      'South Ferry ',
-    ];
+      '8 st ',
+      'Canal st',
+      'White Hall st-South ferry',
+      'Jay st-Metrotech',
+      'Atlantic-Barclays Center',
+      '4 av - 9st',
+      '25 st ',
+      '45 st',
+      '59 st',
+      '77 st',
+      'Bay-Ridge - 95st'
+        ];
 
     const stationData = stationNames.map((name, index) => ({
       id: index + 1,
